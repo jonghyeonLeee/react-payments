@@ -1,5 +1,5 @@
 import { FC, ChangeEvent, useState } from 'react';
-import '../../styles/input.css';
+import '../../../styles/input.css';
 
 export const InputClassName = {
   default: 'input-basic',
@@ -12,7 +12,7 @@ export interface InputProps {
   defaultValue?: string;
   type: 'text' | 'password' | 'number';
   placeholder?: string;
-  maxLength: number;
+  maxLength?: number;
   onChange?: () => void;
   isOnlyNumber?: boolean;
   isMonthNumber?: boolean;

@@ -1,4 +1,4 @@
-import Input from '../components/Input.tsx';
+import Input from '../../components/atoms/Input.tsx';
 
 export default {
   component: Input,
